@@ -23,6 +23,11 @@ import akagera2 from "./assets/akagera2.jpg";
 import akagera3 from "./assets/akagera3.jpg";
 import akagera4 from "./assets/akagera4.jpg";
 import akagera5 from "./assets/akagera.jpg";
+import mombasa from "./assets/mombasa.jpeg";
+import mombasa2 from "./assets/mombasa2.jpeg";
+import mombasa3 from "./assets/mombasa3.jpeg";
+import mombasa4 from "./assets/mombasa4.jpeg";
+import mombasa5 from "./assets/mombasa5.jfif";
 
 const data = [
     {
@@ -79,6 +84,17 @@ const data = [
       location: "Musanze, Rwanda",
       description:
       "Akagera National Park is a protected area in eastern Rwanda covering 1,122 km2 (433 sq mi) along the international border with Tanzania. It was founded in 1934 and includes savannah, montane and swamp habitats. Akagera National Park lies in eastern Rwanda, hugging the border with Tanzania. It's characterized by woodland, swamps, low mountains and savannah. The varied terrain shelters wildlife including zebras, giraffes, elephants, lions and hundreds of bird species, such as the rare shoebill stork. In the southern part of the park, vast Lake Ihema is home to hippos and crocodiles",
+    },
+    {
+      name: "Mombasa",
+      id: 6,
+      country: "Kenya",
+      countryId: "kenya",
+      img: mombasa,
+      imgs: [mombasa2, mombasa3, mombasa4, mombasa5],
+      location: "Mombasa, Kenya",
+      description:
+      "Mombasa is the second city in Kenya. it is located in the coastal region of kenya. it has beautifull beaches, camel riding, hostorical sites and a national park. Mombasa, city and chief port of Kenya, situated on a coralline island in a bay of the Indian Ocean. The island is linked to its mainland municipal territory of 100 square miles (259 square km) by causeway, bridge, and ferry and has an area of 5.5 square miles (14.25 square km)",
     },
 
   ];
