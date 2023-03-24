@@ -68,7 +68,24 @@ import mambila2 from "./assets/mambila2.jfif"
 import mambila3 from "./assets/mambila3.jfif"
 import mambila4 from "./assets/mambila4.jfif"
 import mambila5 from "./assets/mambila5.jfif"
-
+import obudu from "./assets/obudu.jfif"
+import obudu2 from "./assets/obudu2.jfif"
+import obudu3 from "./assets/obudu3.jfif"
+import obudu4 from "./assets/obudu4.jfif"
+import obudu5 from "./assets/obudu5.jfif"
+import palace from "./assets/palace.jfif"
+import palace2 from "./assets/palace2.jfif"
+import palace3 from "./assets/palace3.jfif"
+import palace4 from "./assets/palace4.jfif"
+import erin from "./assets/erin.jfif"
+import erin2 from "./assets/erin2.jfif"
+import erin3 from "./assets/erin3.jfif"
+import erin4 from "./assets/erin4.jfif"
+import eko from "./assets/eko.jfif"
+import eko2 from "./assets/eko2.jfif"
+import eko3 from "./assets/eko3.jfif"
+import eko4 from "./assets/eko4.jfif"
+import eko5 from "./assets/eko5.jfif"
 const data = [
     {
         name: "Nyungwe Forest National Park",
@@ -223,6 +240,53 @@ const data = [
         description:
             "Located in the highland region of Taraba State of Nigeria it houses Chappal Waddi mountain, regarded to be Nigeria's highest point with an average height of roughly 2,419 meters (7,936 feet) above sea level. As a travel destination, it offers some of the nicest weather in the nation, which is mild and welcoming throughout the year, in contrast to other regions of the nation where there are temperature fluctuations during the day and night. Moreover, there are no tse-tse flies or mosquitoes on the Mambilla Plateau. In Mambilla, daytime temperatures rarely get beyond 25°C; the driest months are December and January, when relative humidity drops to approximately 15%, while the wet season typically begins in August.",
     },
+    {
+        name: "OBUDU MOUNTAIN RESORT",
+        id: 14,
+        country: "Nigeria",
+        countryId: "nigeria",
+        img: obudu,
+        imgs: [obudu2, obudu3, obudu4, obudu5],
+        location: "Cross River State, Nigeria",
+        description:
+            "Obudu Mountain Resort also known as Obudu Cattle Ranch is one of Africa’s finest and most interesting and spectacular tourist destinations. Obudu Mountain Resort is located in the highlands and deep tropical forests of Cross River State with a temperate climate at about 45 miles from the border with Cameroon. If you are a tourist looking for a mix of adventure and idyllic tranquillity, then Obudu Cattle Ranch is the place to be. With rich natural vegetation and a picturesque view, Obudu is increasingly becoming popular amongst tourists from all around Nigeria and Africa as a whole.",
+    },
+    {
+        name: "THE ROYAL PALACE OF THE OBA OF BENIN",
+        id: 14,
+        country: "Nigeria",
+        countryId: "nigeria",
+        img: palace,
+        imgs: [palace2, palace3, palace4, palace],
+        location: "Edo State, Nigeria",
+        description:
+            "The Royal Palace of the Oba of Benin is notable as the home of the Oba of Benin and other royals. The palace, built by Oba Ewedo, is located at the heart of ancient City of Benin. It was rebuilt by Oba Eweka II after the original building was destroyed during the 1897 war with the British. The palace was declared a UNESCO Listed Heritage Site in 1999. The Royal Palace of Oba of Benin is a celebration and preservation of the rich Benin culture. Most of the visitors to the palace are curators, archaeologists or historians.",
+    },
+    {
+        name: "ERIN-IJESHA WATERFALLS",
+        id: 15,
+        country: "Nigeria",
+        countryId: "nigeria",
+        img: erin,
+        imgs: [erin2, erin3, erin4, erin],
+        location: "Ogun State, Nigeria",
+        description:
+            "Oluminrin Waterfall is a Sacred destination in Nigeria and no doubt, it is one of the most unique destinations for waterfall chasing , hiking and Camping in Nigeria . It’s the Only waterfall in Nigeria and Africa as a whole that has seven different Waterfalls at different layers , where the top of the seventh will take you into a different community in a different state entirely. The name Erin Ijesha can be loosely translated as Elephant of Ijesha. At the top of the hill on the seventh floor is the source of the water and the ancient Abake village.",
+    },
+    {
+        name: "EKO TOURIST BEACH RESORT.",
+        id: 16,
+        country: "Nigeria",
+        countryId: "nigeria",
+        img: eko,
+        imgs: [eko2, eko3, eko4, eko5],
+        location: "Lagos, Nigeria",
+        description:
+            "Also known as Akodo Beach, this is a privately managed beach that provides fun seekers and picnickers an alternative to the hustle and bustle of conventional beaches. With a view to provide guests and organizations with an affordable recreational place where they can think through ideas, review strategies, unwind, meditate and relax, it offers premium comfort and relaxation. The resort has an amusement park, clinic, private security and other sporting facilities such as snooker, boat riding, archery, beach football, table tennis, quad biking etc. Apart from the long stretch of beach off the coast of Atlantic, there is also a well-maintained swimming pool for the younger ones.",
+    },
+
+
+
 
 ];
 
