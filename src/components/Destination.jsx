@@ -20,7 +20,7 @@ export default function Destination() {
         </Link>
       </div>
       <div>
-        <div className="grid grid-cols-2 gap-2.5 h-96">
+        <div className="grid md:grid-cols-2 gap-2.5 h-96">
           <div className="rounded-l-3xl h-96 rounded-sm relative ">
             <img
               src={img}
@@ -28,13 +28,13 @@ export default function Destination() {
               alt=""
             />
           </div>
-          <div className="grid grid-cols-2 gap-2  h-96">
+          <div className="md:grid grid-cols-2 gap-2 hidden h-96">
             {imgs.map((el, i) => {
               return (
                 <div
                   className={` rounded-sm overflow-hidden relative ${
-                    i === 1 && "rounded-tr-3xl"
-                  } ${i === 3 && "rounded-br-3xl"}`}
+                    i === 1 && "rounded-tr-2xl"
+                  } ${i === 3 && "rounded-br-2xl"}`}
                 >
                   <img
                     src={el}
@@ -45,16 +45,12 @@ export default function Destination() {
                 </div>
               );
             })}
-            {/* <div className="border border-gray-700"></div>
-            <div className="border border-gray-700 rounded-tr-3xl"></div>
-            <div className="border border-gray-700"></div>
-            <div className="border border-gray-700 rounded-br-3xl"></div> */}
           </div>
         </div>
         <h2 className="mt-5 text-2xl text-[#161616]">{name}</h2>
         <h4 className="text-[#717171]">{location}</h4>
         <div className="bg-gray-300 h-[1px] w-1/2 my-3"></div>
-        <p className="max-w-[50%] leading-[1.3] -tracking-tight">
+        <p className="md:max-w-[70%]  lg:max-w-[50%] leading-[1.3] -tracking-tight">
           {description}
         </p>
       </div>
