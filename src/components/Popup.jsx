@@ -1,12 +1,9 @@
-import { context } from "./Provider";
-import { useContext } from "react";
 import Country from "./Country";
 
-export default function Popup({ text }) {
-  const data = useContext(context);
+export default function Popup({ text, locations }) {
   const countries = [
     ...new Set(
-      data.map((el) =>
+      locations.map((el) =>
         JSON.stringify({ country: el.country, countryId: el.countryId })
       )
     ),

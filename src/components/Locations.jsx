@@ -1,12 +1,10 @@
-import { useContext } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useOutletContext } from "react-router-dom";
 import LocationCard from "./LocationCard";
-import { context } from "./Provider";
 import back from "../assets/back.svg";
 
 export default function Locations() {
   const { countryId } = useParams();
-  const data = useContext(context);
+  const {locations: data} = useOutletContext()
   const destination = data.find((el) => el.countryId === countryId);
   return (
     <div className="pt-10 px-5">
