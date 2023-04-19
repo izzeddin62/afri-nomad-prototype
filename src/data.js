@@ -221,7 +221,7 @@ const data = [
     },
     {
         name: "Shere Hills",
-        id: 12,
+        id: 13,
         country: "Nigeria",
         countryId: "nigeria",
         img: shere,
@@ -231,7 +231,7 @@ const data = [
     },
     {
         name: "Mambilla Plateau",
-        id: 13,
+        id: 14,
         country: "Nigeria",
         countryId: "nigeria",
         img: mambila,
@@ -242,7 +242,7 @@ const data = [
     },
     {
         name: "OBUDU MOUNTAIN RESORT",
-        id: 14,
+        id: 15,
         country: "Nigeria",
         countryId: "nigeria",
         img: obudu,
@@ -253,7 +253,7 @@ const data = [
     },
     {
         name: "THE ROYAL PALACE OF THE OBA OF BENIN",
-        id: 14,
+        id: 16,
         country: "Nigeria",
         countryId: "nigeria",
         img: palace,
@@ -264,7 +264,7 @@ const data = [
     },
     {
         name: "ERIN-IJESHA WATERFALLS",
-        id: 15,
+        id: 17,
         country: "Nigeria",
         countryId: "nigeria",
         img: erin,
@@ -275,7 +275,7 @@ const data = [
     },
     {
         name: "EKO TOURIST BEACH RESORT.",
-        id: 16,
+        id: 18,
         country: "Nigeria",
         countryId: "nigeria",
         img: eko,
