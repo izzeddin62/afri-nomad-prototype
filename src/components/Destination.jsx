@@ -1,11 +1,9 @@
-import { useContext } from "react";
-import { Link, useParams } from "react-router-dom";
-import { context } from "./Provider";
+import { Link, useOutletContext, useParams } from "react-router-dom";
 import back from "../assets/back.svg";
 
 export default function Destination() {
   const { id } = useParams();
-  const data = useContext(context);
+  const {locations: data} = useOutletContext()
 
   const destination = data.find((el) => {
     return el.id === +id;

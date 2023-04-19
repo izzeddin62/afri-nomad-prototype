@@ -1,8 +1,7 @@
-import { createContext } from "react";
-import locations from '../data'
+import { createContext} from "react";
 
 export const context = createContext([]);
 
 export default function Provider({ children }) {
-  return <context.Provider value={locations}>{children}</context.Provider>;
+  return <context.Provider value={[]}>{children}</context.Provider>;
 }
