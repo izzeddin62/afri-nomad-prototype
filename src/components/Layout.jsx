@@ -1,7 +1,7 @@
 import { Outlet, useLoaderData } from "react-router-dom";
 
 export async function loader() {
-    const res = await fetch("https://izzet22.pythonanywhere.com/locations");
+    const res = await fetch(`${process.env.REACT_APP_URL}/locations`);
     const data = await res.json();
     return data;
 }

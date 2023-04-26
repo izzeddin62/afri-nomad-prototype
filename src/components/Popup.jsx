@@ -1,6 +1,7 @@
 import Country from "./Country";
 
 export default function Popup({ text, locations }) {
+  console.log(locations, '=============================')
   const countries = [
     ...new Set(
       locations.map((el) =>
