@@ -46,7 +46,7 @@ export default function PendingLocation() {
       });
     }
     return clm;
-  }, []);
+  }, [user.role]);
   useEffect(() => {
     const fetchData = async () => {
       const res = await axios.get(`${process.env.REACT_APP_URL}/pending-locations`);

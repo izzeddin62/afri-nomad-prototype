@@ -1,4 +1,4 @@
-import { Navigate, Outlet, useNavigate } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 import axios from "axios";
 import NavBar from "../components/NavBar";
 import { useEffect, useState } from "react";
@@ -26,6 +26,7 @@ export default function ProtectedRoute() {
       }
     };
     getUser();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return state === "success" ? (
     <div className="flex h-screen">
