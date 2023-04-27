@@ -79,7 +79,6 @@ export default function NewLocation() {
             onChange={handleChanges}
             name="name"
             required
-            pattern="[A-Za-z]{3,}"
             className="border border-[#E4E3E3] h-[44px] rounded-[12px] w-full max-w-[481px] px-3"
           />
         </label>
