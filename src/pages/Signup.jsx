@@ -32,7 +32,7 @@ export async function action({ request }) {
     localStorage.setItem("token", res?.data?.access_token);
     return { message: "Your application has been submitted. Please wait for approval.", status: "success"};
   } catch (error) {
-    return{ message: error?.response?.data?.msg || error.message, status: "error"};
+    return{ message: error?.response?.data?.error || error.message, status: "error"};
   }
 }
 
