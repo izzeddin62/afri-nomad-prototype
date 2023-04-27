@@ -5,7 +5,6 @@ export default function ApproveLocation({ location, user }) {
   const [state, setState] = useState("idle");
   const [error, setError] = useState(null);
   const navigate = useNavigate();
-  console.log(location.status, location.id);
   const handleUpvote = async () => {
     try {
       setState("pending");
@@ -21,7 +20,6 @@ export default function ApproveLocation({ location, user }) {
       navigate(0);
       setState("resolved");
     } catch (error) {
-      console.log(error);
       setState("rejected");
       setError(error.message);
     }

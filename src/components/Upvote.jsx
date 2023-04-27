@@ -6,7 +6,6 @@ export default function Upvote({ location, user }) {
   const [error, setError] = useState(null);
   const navigate = useNavigate();
   const userAlreadyUpvoted = location.upvotes.includes(user.id);
-  console.log(userAlreadyUpvoted, location.upvotes, location.id);
   const handleUpvote = async () => {
     try {
       setState("pending");
@@ -22,7 +21,6 @@ export default function Upvote({ location, user }) {
       navigate(0);
       setState("resolved");
     } catch (error) {
-      console.log(error);
       setState("rejected");
       setError(error.message);
     }

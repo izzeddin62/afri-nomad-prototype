@@ -39,7 +39,6 @@ export async function action({ request }) {
 export default function Signup() {
   const actionMessage = useActionData();
   const { state } = useNavigation();
-  console.log(actionMessage)
   const message = actionMessage?.message;
 
   return (

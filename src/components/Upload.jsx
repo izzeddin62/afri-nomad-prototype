@@ -4,7 +4,6 @@ import upload from "../assets/upload.svg";
 const ImageUpload = (props) => {
   const uploadImageWidget = (event) => {
     event.preventDefault();
-    console.log(props);
     let myUploadWidget = openUploadWidget(
       {
         cloudName: props.cloud_name,

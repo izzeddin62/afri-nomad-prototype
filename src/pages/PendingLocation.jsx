@@ -54,7 +54,6 @@ export default function PendingLocation() {
     };
     fetchData();
   }, []);
-  console.log(data);
 
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     useTable({ columns, data: items });

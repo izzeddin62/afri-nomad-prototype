@@ -35,9 +35,7 @@ export default function NewLocation() {
       return;
     }
     if (imgs.some((img) => !img) || imgs.length < 1 || imgs.length < 4) {
-      console.log("I got here");
       const missingImages = imgs.filter((img) => img);
-      console.log(missingImages.length);
       setError(`Please upload ${4 - missingImages.length} missing images`);
       return;
     }
