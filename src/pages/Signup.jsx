@@ -90,7 +90,7 @@ export default function Signup() {
             type="password"
             name="password"
             required
-            pattern="\S{8,}"
+            pattern="\S{4,}"
             placeholder="Password"
             className="border indent-3 border-[#4D4D4D] h-14 rounded-b-[5px] bg-white border-opacity-5"
           />
@@ -104,7 +104,7 @@ export default function Signup() {
             disabled={state === "submitting"}
             className="bg-[#FF8C38] mt-5 py-4 rounded-md font-bold text-white w-full"
           >
-            {state === "submitting" ? "submitting" : "Signin"}
+            {state === "submitting" ? "submitting" : "Apply"}
           </button>
         </Form>
         <p className="font-medium text-2xl text-dark mt-2">
