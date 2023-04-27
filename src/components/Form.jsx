@@ -1,6 +1,6 @@
 export default function Form({ text, handleChange}) {
   return (
-    <form className="w-full mt-10 relative max-w-xl mx-auto" onSubmit={(event) => event.preventDefault()}>
+    <form className="w-full relative max-w-xl mx-auto" onSubmit={(event) => event.preventDefault()}>
       <input
         type="text"
         name="text"
